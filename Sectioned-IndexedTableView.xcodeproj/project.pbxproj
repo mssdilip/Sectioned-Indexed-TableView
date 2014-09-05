@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50D07F619BA00060099A8A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50D07F519BA00060099A8A3 /* Foundation.framework */; };
+		B50D07F819BA00060099A8A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50D07F719BA00060099A8A3 /* CoreGraphics.framework */; };
+		B50D07FA19BA00060099A8A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50D07F919BA00060099A8A3 /* UIKit.framework */; };
+		B50D080019BA00060099A8A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B50D07FE19BA00060099A8A3 /* InfoPlist.strings */; };
+		B50D080219BA00060099A8A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B50D080119BA00060099A8A3 /* main.m */; };
+		B50D080619BA00060099A8A3 /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B50D080519BA00060099A8A3 /* TLAppDelegate.m */; };
+		B50D080919BA00060099A8A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50D080719BA00060099A8A3 /* Main.storyboard */; };
+		B50D080C19BA00060099A8A3 /* TLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50D080B19BA00060099A8A3 /* TLViewController.m */; };
+		B50D080E19BA00060099A8A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50D080D19BA00060099A8A3 /* Images.xcassets */; };
+		B50D081519BA00060099A8A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50D081419BA00060099A8A3 /* XCTest.framework */; };
+		B50D081619BA00060099A8A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50D07F519BA00060099A8A3 /* Foundation.framework */; };
+		B50D081719BA00060099A8A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50D07F919BA00060099A8A3 /* UIKit.framework */; };
+		B50D081F19BA00060099A8A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B50D081D19BA00060099A8A3 /* InfoPlist.strings */; };
+		B50D082119BA00060099A8A3 /* Sectioned_IndexedTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B50D082019BA00060099A8A3 /* Sectioned_IndexedTableViewTests.m */; };
+		B50D082B19BA02870099A8A3 /* Names.plist in Resources */ = {isa = PBXBuildFile; fileRef = B50D082A19BA02870099A8A3 /* Names.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B50D081819BA00060099A8A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B50D07EA19BA00060099A8A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50D07F119BA00060099A8A3;
+			remoteInfo = "Sectioned-IndexedTableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B50D07F219BA00060099A8A3 /* Sectioned-IndexedTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sectioned-IndexedTableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50D07F519BA00060099A8A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B50D07F719BA00060099A8A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B50D07F919BA00060099A8A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B50D07FD19BA00060099A8A3 /* Sectioned-IndexedTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sectioned-IndexedTableView-Info.plist"; sourceTree = "<group>"; };
+		B50D07FF19BA00060099A8A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B50D080119BA00060099A8A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B50D080319BA00060099A8A3 /* Sectioned-IndexedTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sectioned-IndexedTableView-Prefix.pch"; sourceTree = "<group>"; };
+		B50D080419BA00060099A8A3 /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAppDelegate.h; sourceTree = "<group>"; };
+		B50D080519BA00060099A8A3 /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAppDelegate.m; sourceTree = "<group>"; };
+		B50D080819BA00060099A8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B50D080A19BA00060099A8A3 /* TLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLViewController.h; sourceTree = "<group>"; };
+		B50D080B19BA00060099A8A3 /* TLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLViewController.m; sourceTree = "<group>"; };
+		B50D080D19BA00060099A8A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B50D081319BA00060099A8A3 /* Sectioned-IndexedTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sectioned-IndexedTableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50D081419BA00060099A8A3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B50D081C19BA00060099A8A3 /* Sectioned-IndexedTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sectioned-IndexedTableViewTests-Info.plist"; sourceTree = "<group>"; };
+		B50D081E19BA00060099A8A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B50D082019BA00060099A8A3 /* Sectioned_IndexedTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sectioned_IndexedTableViewTests.m; sourceTree = "<group>"; };
+		B50D082A19BA02870099A8A3 /* Names.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Names.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B50D07EF19BA00060099A8A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50D07F819BA00060099A8A3 /* CoreGraphics.framework in Frameworks */,
+				B50D07FA19BA00060099A8A3 /* UIKit.framework in Frameworks */,
+				B50D07F619BA00060099A8A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50D081019BA00060099A8A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50D081519BA00060099A8A3 /* XCTest.framework in Frameworks */,
+				B50D081719BA00060099A8A3 /* UIKit.framework in Frameworks */,
+				B50D081619BA00060099A8A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B50D07E919BA00060099A8A3 = {
+			isa = PBXGroup;
+			children = (
+				B50D07FB19BA00060099A8A3 /* Sectioned-IndexedTableView */,
+				B50D081A19BA00060099A8A3 /* Sectioned-IndexedTableViewTests */,
+				B50D07F419BA00060099A8A3 /* Frameworks */,
+				B50D07F319BA00060099A8A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B50D07F319BA00060099A8A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B50D07F219BA00060099A8A3 /* Sectioned-IndexedTableView.app */,
+				B50D081319BA00060099A8A3 /* Sectioned-IndexedTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50D07F419BA00060099A8A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B50D07F519BA00060099A8A3 /* Foundation.framework */,
+				B50D07F719BA00060099A8A3 /* CoreGraphics.framework */,
+				B50D07F919BA00060099A8A3 /* UIKit.framework */,
+				B50D081419BA00060099A8A3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B50D07FB19BA00060099A8A3 /* Sectioned-IndexedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B50D080419BA00060099A8A3 /* TLAppDelegate.h */,
+				B50D080519BA00060099A8A3 /* TLAppDelegate.m */,
+				B50D080719BA00060099A8A3 /* Main.storyboard */,
+				B50D080A19BA00060099A8A3 /* TLViewController.h */,
+				B50D080B19BA00060099A8A3 /* TLViewController.m */,
+				B50D082A19BA02870099A8A3 /* Names.plist */,
+				B50D080D19BA00060099A8A3 /* Images.xcassets */,
+				B50D07FC19BA00060099A8A3 /* Supporting Files */,
+			);
+			path = "Sectioned-IndexedTableView";
+			sourceTree = "<group>";
+		};
+		B50D07FC19BA00060099A8A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B50D07FD19BA00060099A8A3 /* Sectioned-IndexedTableView-Info.plist */,
+				B50D07FE19BA00060099A8A3 /* InfoPlist.strings */,
+				B50D080119BA00060099A8A3 /* main.m */,
+				B50D080319BA00060099A8A3 /* Sectioned-IndexedTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B50D081A19BA00060099A8A3 /* Sectioned-IndexedTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B50D082019BA00060099A8A3 /* Sectioned_IndexedTableViewTests.m */,
+				B50D081B19BA00060099A8A3 /* Supporting Files */,
+			);
+			path = "Sectioned-IndexedTableViewTests";
+			sourceTree = "<group>";
+		};
+		B50D081B19BA00060099A8A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B50D081C19BA00060099A8A3 /* Sectioned-IndexedTableViewTests-Info.plist */,
+				B50D081D19BA00060099A8A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B50D07F119BA00060099A8A3 /* Sectioned-IndexedTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50D082419BA00060099A8A3 /* Build configuration list for PBXNativeTarget "Sectioned-IndexedTableView" */;
+			buildPhases = (
+				B50D07EE19BA00060099A8A3 /* Sources */,
+				B50D07EF19BA00060099A8A3 /* Frameworks */,
+				B50D07F019BA00060099A8A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sectioned-IndexedTableView";
+			productName = "Sectioned-IndexedTableView";
+			productReference = B50D07F219BA00060099A8A3 /* Sectioned-IndexedTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B50D081219BA00060099A8A3 /* Sectioned-IndexedTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50D082719BA00060099A8A3 /* Build configuration list for PBXNativeTarget "Sectioned-IndexedTableViewTests" */;
+			buildPhases = (
+				B50D080F19BA00060099A8A3 /* Sources */,
+				B50D081019BA00060099A8A3 /* Frameworks */,
+				B50D081119BA00060099A8A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B50D081919BA00060099A8A3 /* PBXTargetDependency */,
+			);
+			name = "Sectioned-IndexedTableViewTests";
+			productName = "Sectioned-IndexedTableViewTests";
+			productReference = B50D081319BA00060099A8A3 /* Sectioned-IndexedTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B50D07EA19BA00060099A8A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Thien Liu";
+				TargetAttributes = {
+					B50D081219BA00060099A8A3 = {
+						TestTargetID = B50D07F119BA00060099A8A3;
+					};
+				};
+			};
+			buildConfigurationList = B50D07ED19BA00060099A8A3 /* Build configuration list for PBXProject "Sectioned-IndexedTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B50D07E919BA00060099A8A3;
+			productRefGroup = B50D07F319BA00060099A8A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B50D07F119BA00060099A8A3 /* Sectioned-IndexedTableView */,
+				B50D081219BA00060099A8A3 /* Sectioned-IndexedTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50D07F019BA00060099A8A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50D080E19BA00060099A8A3 /* Images.xcassets in Resources */,
+				B50D082B19BA02870099A8A3 /* Names.plist in Resources */,
+				B50D080019BA00060099A8A3 /* InfoPlist.strings in Resources */,
+				B50D080919BA00060099A8A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50D081119BA00060099A8A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50D081F19BA00060099A8A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B50D07EE19BA00060099A8A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50D080C19BA00060099A8A3 /* TLViewController.m in Sources */,
+				B50D080619BA00060099A8A3 /* TLAppDelegate.m in Sources */,
+				B50D080219BA00060099A8A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50D080F19BA00060099A8A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50D082119BA00060099A8A3 /* Sectioned_IndexedTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B50D081919BA00060099A8A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50D07F119BA00060099A8A3 /* Sectioned-IndexedTableView */;
+			targetProxy = B50D081819BA00060099A8A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B50D07FE19BA00060099A8A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50D07FF19BA00060099A8A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B50D080719BA00060099A8A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50D080819BA00060099A8A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B50D081D19BA00060099A8A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50D081E19BA00060099A8A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B50D082219BA00060099A8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B50D082319BA00060099A8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B50D082519BA00060099A8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sectioned-IndexedTableView/Sectioned-IndexedTableView-Prefix.pch";
+				INFOPLIST_FILE = "Sectioned-IndexedTableView/Sectioned-IndexedTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B50D082619BA00060099A8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sectioned-IndexedTableView/Sectioned-IndexedTableView-Prefix.pch";
+				INFOPLIST_FILE = "Sectioned-IndexedTableView/Sectioned-IndexedTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B50D082819BA00060099A8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sectioned-IndexedTableView.app/Sectioned-IndexedTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sectioned-IndexedTableView/Sectioned-IndexedTableView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sectioned-IndexedTableViewTests/Sectioned-IndexedTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B50D082919BA00060099A8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sectioned-IndexedTableView.app/Sectioned-IndexedTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sectioned-IndexedTableView/Sectioned-IndexedTableView-Prefix.pch";
+				INFOPLIST_FILE = "Sectioned-IndexedTableViewTests/Sectioned-IndexedTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B50D07ED19BA00060099A8A3 /* Build configuration list for PBXProject "Sectioned-IndexedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50D082219BA00060099A8A3 /* Debug */,
+				B50D082319BA00060099A8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50D082419BA00060099A8A3 /* Build configuration list for PBXNativeTarget "Sectioned-IndexedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50D082519BA00060099A8A3 /* Debug */,
+				B50D082619BA00060099A8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B50D082719BA00060099A8A3 /* Build configuration list for PBXNativeTarget "Sectioned-IndexedTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50D082819BA00060099A8A3 /* Debug */,
+				B50D082919BA00060099A8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B50D07EA19BA00060099A8A3 /* Project object */;
+}
